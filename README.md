@@ -17,28 +17,23 @@ How well those variables describe the electric cycle demands
 
 ## Dataset
 
-Here’s the data represented in table format:
-
 | Column Name  | Description                                                                                                                                     |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| `datetime`   | Date and time of the record.                                                                                                                    |
-| `season`     | Season (1: spring, 2: summer, 3: fall, 4: winter).                                                                                              |
-| `holiday`    | Indicates whether the day is a holiday (extracted from [DCHR Holiday Schedule](http://dchr.dc.gov/page/holiday-schedule)).                      |
-| `workingday` | Indicates if the day is neither a weekend nor a holiday (1: yes, 0: no).                                                                        |
-| `weather`    | Weather conditions: <br> 1: Clear, Few clouds, partly cloudy <br> 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist <br> 3:       |
-|              | Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds <br> 4: Heavy Rain + Ice Pallets +                      |
-|              |  Thunderstorm + Mist, Snow + Fog                                                                                                                |
-| `temp`       | Temperature in Celsius.                                                                                                                         |
-| `atemp`      | Feels-like temperature in Celsius.                                                                                                              |
-| `humidity`   | Humidity percentage.                                                                                                                            |
-| `windspeed`  | Wind speed in km/h.                                                                                                                             |
-| `casual`     | Count of casual users.                                                                                                                          |
-| `registered` | Count of registered users.                                                                                                                      |
-| `count`      | Total count of rental bikes (including both casual and registered users).                                                                       |
+| `datetime`   | Date and time of the record.                                                                                                                 |
+| `season`     | Season (1: spring, 2: summer, 3: fall, 4: winter).                                                                                          |
+| `holiday`    | Indicates whether the day is a holiday (extracted from [DCHR Holiday Schedule](http://dchr.dc.gov/page/holiday-schedule)).                   |
+| `workingday` | Indicates if the day is neither a weekend nor a holiday (1: yes, 0: no).                                                                     |
+| `weather`    | Weather conditions: <br> 1: Clear, Few clouds, partly cloudy <br> 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist <br> 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds <br> 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog |
+| `temp`       | Temperature in Celsius.                                                                                                                      |
+| `atemp`      | Feels-like temperature in Celsius.                                                                                                           |
+| `humidity`   | Humidity percentage.                                                                                                                          |
+| `windspeed`  | Wind speed in km/h.                                                                                                                          |
+| `casual`     | Count of casual users.                                                                                                                        |
+| `registered`  | Count of registered users.                                                                                                                    |
+| `count`      | Total count of rental bikes (including both casual and registered users).                                                                     |
+
 
 # steps performed
-
-Here’s a rewritten version outlining the steps performed in the exploratory data analysis:
 
 1. **Import the Dataset**: Loaded the dataset and performed initial checks on its structure and characteristics.
 
